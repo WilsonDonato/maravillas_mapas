@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Maravillas Mundiales</string>
+    <string name="title_activity_maps_cusco">maps_cusco</string>
+    <string name="title_activity_mapasantiguos">mapasantiguos</string>
+    <string name="title_activity_mapasmodernos">mapasmodernos</string>
+    <string name="title_activity_comidas">comidas</string>
+</resources>

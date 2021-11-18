@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondogaa"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/enebold"
+                android:gravity="center"
+                android:text="Maravillas del Mundo"
+                android:textColor="@color/white"
+                android:textSize="50dp"
+                android:layout_marginVertical="20dp"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/humbe"
+                android:text="Wilson Holguin - Romulo Valdivia"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginVertical="20dp"/>
+
+
+            <Button
+        android:id="@+id/button"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:background="@drawable/boton_redondo"
+        android:fontFamily="@font/escapar"
+        android:gravity="center"
+        android:onClick="cusco"
+        android:text="Lugares turisticos del cusco"
+        android:textSize="20dp"
+                android:layout_marginVertical="20dp"
+        app:backgroundTint="#003F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.304" />
+
+            <Button
+                android:id="@+id/hoteles"
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="20dp"
+                android:background="@drawable/boton_redondo"
+                android:fontFamily="@font/escapar"
+                android:gravity="center"
+                android:onClick="comidaa"
+                android:text="Principales hoteles del Cusco"
+                android:textSize="20dp"
+                app:backgroundTint="#003F51B5"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.491"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.477" />
+
+            <Button
+        android:id="@+id/button4"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:background="@drawable/boton_redondo"
+        android:fontFamily="@font/escapar"
+        android:gravity="center"
+        android:onClick="comidaa"
+        android:text="Restaurantes tradicionales del Cusco"
+        android:textSize="20dp"
+        android:layout_marginVertical="20dp"
+        app:backgroundTint="#003F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/boton_redondo"
+                android:fontFamily="@font/escapar"
+                android:onClick="moderno"
+                android:text="Maravillas modernas"
+                android:textSize="20dp"
+                android:layout_marginVertical="20dp"
+                app:backgroundTint="#003F51B5"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.491"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.82" />
+
+            <Button
+        android:id="@+id/button2"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:background="@drawable/boton_redondo"
+        android:fontFamily="@font/escapar"
+        android:onClick="antiguo"
+        android:text="Maravillas antiguas"
+        android:textSize="20dp"
+                android:layout_marginVertical="20dp"
+        app:backgroundTint="#003F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646" />
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/enebold"
+        android:background="@drawable/boton_redondo"
+        android:text="Graficador de rutas"
+        android:textSize="25dp"
+        android:onClick="ruta"
+        android:layout_marginVertical="20dp"
+        app:backgroundTint="#be3521"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.942" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
